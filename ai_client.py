@@ -3,7 +3,7 @@ from mcp import ClientSession , StdioServerParameters
 from mcp.client.stdio import stdio_client
 
 
-def input_from_user():
+def input_from_user(): #input from user
     tool_name = input("Enter tool name to call: ")
     first = int(input("Enter first number: "))
     second = int(input("Enter second number: "))
